@@ -1,0 +1,41 @@
+.order-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.data > div {
+    width: 200px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.data-header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+}
+
+.data-header > div {
+    width: 200px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.data > div  > img {
+    width: 100px;
+}
+
+
+.data-header > div  > h1 {
+    font-weight: bold;
+    font-size: 20px;
+}

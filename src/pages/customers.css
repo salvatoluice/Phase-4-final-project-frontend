@@ -1,0 +1,40 @@
+.customer_header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+}
+
+.customer_header > div {
+    width: 200px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.customers {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.customers .image {
+    display: flex;
+    align-items: center;
+}
+
+.customers > div {
+    width: 200px;
+    margin: 1rem;
+    align-items: center;
+}
+
+.customers > div > img {
+    width: 100px;
+    border-radius: 50%;
+    padding-right: 3px;
+}
+
+.customer_header > div > h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
