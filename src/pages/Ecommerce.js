@@ -9,7 +9,7 @@ const Ecommerce = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://ecommerce-production-921a.up.railway.app/products")
       .then((r) => r.json())
       .then(data => setProducts(data));
   }, []);

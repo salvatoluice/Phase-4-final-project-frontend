@@ -35,7 +35,7 @@ const NewEmployee = ({ onAddEmployee }) => {
 
     function handleSubmit(e) {
       e.preventDefault();
-      fetch("http://localhost:3000/employees", {
+      fetch("https://ecommerce-production-921a.up.railway.app/employees", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

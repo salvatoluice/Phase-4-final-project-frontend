@@ -21,7 +21,7 @@ const NewProductForm = ({ onAddProduct }) => {
 
       function handleSubmit(e) {
         e.preventDefault();
-        fetch("http://localhost:3000/products", {
+        fetch("https://ecommerce-production-921a.up.railway.app/products", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

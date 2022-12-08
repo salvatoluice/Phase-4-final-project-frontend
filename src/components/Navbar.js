@@ -9,8 +9,10 @@ import avatar from '../data/avatar.jpg';
 import { useStateContext } from '../contexts/ContextProvider';
 import Cart from './Cart';
 import UserProfile from './UserProfile';
+import { Link } from 'react-router-dom';
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
+  
     <button
       type="button"
       onClick={() => customFunc()}
@@ -25,7 +27,7 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
     </button>
 );
 
-const Navbar = () => {
+const Navbar = ({user, onLogout}) => {
   const { currentColor, activeMenu, setActiveMenu, handleClick, isClicked, setScreenSize, screenSize } = useStateContext();
 
   useEffect(() => {
@@ -58,12 +60,14 @@ const Navbar = () => {
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick('userProfile')}
           >
-            <p>
-              <span className="text-gray-400 text-14">Hello, </span>{' '}
-              <span className="text-gray-400 font-bold ml-1 text-14">
-                Denzel
-              </span>
-            </p>
+           {user ? (
+             <p>
+             <span className="text-gray-400 text-14">Hello, </span>{' '}
+             <span className="text-gray-400 font-bold ml-1 text-14">
+               Denzel
+             </span>
+           </p>
+           ) : (<Link to="/login">Click Here to Login</Link>)}
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
 

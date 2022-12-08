@@ -6,7 +6,7 @@ const Customers = () => {
 
   const [customers, setCustomers] = useState([]);
   const getData = () =>
-    fetch("http://localhost:3000/customers")
+    fetch("https://ecommerce-production-921a.up.railway.app/customers")
       .then((res) => res.json())
 
 

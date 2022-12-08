@@ -6,7 +6,7 @@ const EmployeeItem = ({employee, onDeleteEmployee}) => {
 
         
     function handleDeleteEmployee() {
-        fetch(`http://localhost:3000/employees/${id}`, {
+        fetch(`https://ecommerce-production-921a.up.railway.app/employees/${id}`, {
           method: "DELETE",
         }).then((r) => {
           if (r.ok) {

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
+import Login from './components/Login'
 
 import './App.css';
 
@@ -77,6 +78,7 @@ const App = () => {
                 <Route path='/kanban' element={<Kanban />}/>
                 <Route path='/editor' element={<Editor />}/>
                 <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path='/login' element={<Login />} />
 
               </Routes>
             </div>

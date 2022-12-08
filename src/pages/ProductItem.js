@@ -6,7 +6,7 @@ const ProductItem = ({ product, onUpdateProduct, onDeleteProduct }) => {
 
     
       function handleDeleteProduct() {
-        fetch(`http://localhost:3000/products/${id}`, {
+        fetch(`https://ecommerce-production-921a.up.railway.app/products/${id}`, {
           method: "DELETE",
         }).then((r) => {
           if (r.ok) {

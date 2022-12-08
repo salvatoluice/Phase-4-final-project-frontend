@@ -6,7 +6,7 @@ import Header from '../components/Header'
 const Orders = () => {
     const [data, setData] = useState([]);
     const getData = () =>
-      fetch("http://localhost:3000/orders")
+      fetch("https://ecommerce-production-921a.up.railway.app/orders")
         .then((res) => res.json())
 
 
