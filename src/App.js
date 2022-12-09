@@ -18,6 +18,7 @@ import Kanban from './pages/Kanban';
 import Editor from './pages/Editor';
 import ColorPicker from './pages/ColorPicker';
 import EditProduct from './pages/EditProduct';
+import Footer from './pages/Footer';
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
