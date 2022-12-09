@@ -1,11 +1,12 @@
+import React from 'react';
 import './ecommerce.css';
 
 function Header({ productCount }) {
-    return (
-      <header>
-        <h1>The product Store</h1>
-        <h3> {productCount} products in store</h3>
-      </header>
+  return (
+    <header>
+      <h1>The product Store</h1>
+      <h3> {productCount} products in store</h3>
+    </header>
     );
   }
   

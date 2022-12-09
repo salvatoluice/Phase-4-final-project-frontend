@@ -1,29 +1,22 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './orders.css'
-
-import Header from '../components/Header'
+import Header from '../components/Header';
 
 const Orders = () => {
-    const [data, setData] = useState([]);
-    const getData = () =>
-      fetch("https://ecommerce-production-921a.up.railway.app/orders")
-        .then((res) => res.json())
-
-
-        useEffect(() => {
-          getData().then((data) => setData(data))
-        }, [])
-
-        // const statusbg = {status_bg}
+  const [data, setData] = useState([]);
+  const getData = () =>
+    fetch("https://ecommerce-production-921a.up.railway.app/orders")
+      .then((res) => res.json())
+    useEffect(() => {
+      getData().then((data) => setData(data));
+    }, [])
     return (
       <>
       <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
         <Header category="Amazon" title="Orders Table" />
       </div>
       <div className=' m-2 md:m-10 mt-24 p-2 md-p-10 bg-white rounded-3xl'>
-        
-      
-      <div className='orderss'>
+        <div className='orderss'>
           <div className='data-header'>
             <div><h1>Image</h1></div>
             <div><h1>Items</h1></div>
@@ -43,12 +36,12 @@ const Orders = () => {
                 <div><p style={{fontWeight: 'bold'}}>${item.total_amount}</p></div>
                 <div><p>{item.status}</p></div>
                 <div><p>{item.location}</p></div>
-            </div>
-            )
-          }
-           )}
+              </div>
+              )
+            }
+            )}
         </div>
-        </div>
+      </div>
       </>
     );
   };

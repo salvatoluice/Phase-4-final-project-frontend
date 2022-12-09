@@ -1,26 +1,19 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import NewProductForm from './NewProductForm';
 import ProductItem from './ProductItem';
 
-
 const Ecommerce = () => {
-
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://ecommerce-production-921a.up.railway.app/products")
+    fetch('https://ecommerce-production-921a.up.railway.app/products')
       .then((r) => r.json())
       .then(data => setProducts(data));
   }, []);
-
-
   function handleAddProduct(addedProduct) {
     setProducts((products) => [...products, addedProduct]);
   }
-
-
-
   function handleUpdateProduct(updatedProduct) {
     setProducts((products) =>
       products.map((product) => {
@@ -28,9 +21,6 @@ const Ecommerce = () => {
       })
     );
   }
-
-
-
   function handleDeleteProduct(deletedProduct) {
     setProducts((products) =>
       products.filter((product) => product.id !== deletedProduct.id)

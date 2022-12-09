@@ -1,14 +1,14 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 
 function Login({ onLogin }) {
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState('');
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("https://ecommerce-production-921a.up.railway.app/login", {
-      method: "POST",
+    fetch('https://ecommerce-production-921a.up.railway.app/login', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({ username }),
     }).then((r) => {

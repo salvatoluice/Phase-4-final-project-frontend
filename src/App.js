@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
-import Login from './components/Login'
+import Login from './components/Login';
 
 import './App.css';
 
@@ -36,14 +36,14 @@ const App = () => {
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed right-4 bottom-4" style={{ zIndex: '1000' }}>
-              <button
-                type="button"
-                onClick={() => setThemeSettings(true)}
-                style={{ background: currentColor, borderRadius: '50%' }}
-                className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
-              >
-                <FiSettings />
-              </button>
+            <button
+              type="button"
+              onClick={() => setThemeSettings(true)}
+              style={{ background: currentColor, borderRadius: '50%' }}
+              className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
+            >
+              <FiSettings />
+            </button>
           </div>
           {activeMenu ? (
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white ">
@@ -75,12 +75,12 @@ const App = () => {
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
 
-                <Route path='/calendar' element={<Calendar />}/>
-                <Route path='/kanban' element={<Kanban />}/>
-                <Route path='/editor' element={<Editor />}/>
+                <Route path="/calendar" element={<Calendar />} />
+                <Route path="/kanban" element={<Kanban />} />
+                <Route path="/editor" element={<Editor />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
-                <Route path='/login' element={<Login />} />
-                <Route exact path='/edit/:id' element={<EditProduct/>}/>
+                <Route path="/login" element={<Login />} />
+                <Route exact path="/edit/:id" element={<EditProduct />} />
 
               </Routes>
             </div>
