@@ -1,12 +1,12 @@
-# Lux-Hotels
+# Amazon Admin Dashboard clone
 
-Project name: **Lux-Hotels.**
+Project name: **Fake Amazon Admin**
 
-Author's name: **Andreen Muchiri**
+Author's name: **salvato Luis**
 
-**Lux-Hotels**
+**Amazon Admin**
 
-This is an online hotel-hunting site that allows clients  who are looking forward to going for a vacation or even need accommodation during business trips, get access to information about hotels near their locations and those that fit their needs.It frees one off the stress that comes along with searching for hotel accommodation.
+An admin dashboard, clone, an ecommerce admin project Admin dashboard that sees it possible foran admin to create products, view, edit and delete any. He/she can also view the orders, completed, active, pending or rejected. Also, a track of all the customers is kept.
 
 **Table of Contents.**
 * About The Project.
@@ -29,27 +29,27 @@ This is an online hotel-hunting site that allows clients  who are looking forwar
 
 **ABOUT THE PROJECT.**
 
-Lux-Hotels  is an internet based hotel accommodation search site  that aims to ensure that hotel-hunting experience has been made easier by providing an extensive range of information on hotels available for accommodation.
+Amazon admin is an ecommerce admin project Admin dashboard that sees it possible foran admin to create products, view, edit and delete any. He/she can also view the orders, completed, active, pending or rejected. Also, a track of all the customers is kept.
 
 **BUILT WITH.**
 
-* CSS
+* Tailwind
 
 * React.js
 
-* JSX
+* Syncfusion
 
-* Netlify
+* Deployed on vercel & Railway
 
-* Railway.App
-
-* Ruby on Rails API
+* Ruby on Rails
 
 **GETTING STARTED.**
 
-To start of you are required to follow the live link provided in the repository description (Link provided),then go ahead and type in the search section.
+To start of you are required to follow the live link provided in the repository description (Link provided)
 
 **PREREQUISITES.**
+
+After cloning the repo, run `$ npm install --legacy-peer-deps`
 
 Below are the necesities to keep note of while using this web application.
 
@@ -69,7 +69,7 @@ The page will reload when you make changes.
   To get setup run;
 
      
-       $ npm install 
+       $ npm install --legacy-peer-deps
         
     
     
@@ -77,33 +77,36 @@ The page will reload when you make changes.
 **USAGE.**
 * First click on the web link provided,
 
-* Navigate to the search-box and select a location , hotel, room type  and price range in respective searchbox.
+* Login using ausername
 
-* Click on the search button to get the results of your search.
+* Navigate to the Ecommerce section on the sidebar
 
-* Navigate to room page and get to book a room of your liking.
+* View, edit, delete or create a new product
 
-* Login using the login button.
+* The employees section has the axct same functionality sa that of the ecommerce
 
-* For new users, sign up using the signup button.
+* View order, together with its statu and customers
+
+**To change the theme of the website, a settings icon is on the bottom right corner of the site, click that to switch between light and dark mode, dependingnon your preferences.**
+**You can as well pick the colorof your choice for the website. from the provided 5 colors.**
 
 
-
+                  **KNOWN BUGS**
+ * The site is fully functional, however, there are a few known bugs, which are currently being woked on, and will be updated shortly. 
+ * The login button logs you in, however, it does not show your name on the site, this will be solved shortly. 
+ * The analytics sections, i.e. line, area, bar, pie, financial, color mapping, stacked and pyramid are currently being imolimeted, as they need access to real time data info, therefore, in the next 1 week, the whole site will be fully functional.
 
 
 **ROADMAP.**
 
-* Home .
+* Ecommerce.
 
-* About Us.
+* Oders.
 
-* Room.
+* Employees.
 
-* Contact .
+* Customers.
 
-* Login.
-
-* SignUp.
     
         **CONTRIBUTIONS.**
 
@@ -134,9 +137,5 @@ Project-link: https://github.com/salvatoluice/Phase-4-final-project-frontend.git
 
 
 **ACKNOWLEDGEMENT.**
-
-To start of is lots of gratitude to my Moringa School Technical Mentor- **Beatrice Wambui.** -who has been very supportive through this whole process.She has guided me through everything diligently and ensured that I get to deliver my very best.
-
-
-
+Big shout outs to my Moringa School Technical Mentor- **Beatrice Wambui Mbugua.** -Providing me all the support through this amazing journey, being there to offer any help needed, is really amazing. She's walked me through all the steps for building this. Shout outs to her.
 
