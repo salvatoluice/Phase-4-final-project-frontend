@@ -4,6 +4,18 @@ Project name: **Fake Amazon Admin**
 
 Author's name: **salvato Luis**
 
+Backend-link: https://github.com/salvatoluice/Phase-4-Final-project-backend
+
+Backend deployment-link: https://ecommerce-production-921a.up.railway.app/
+
+
+Endpoints:
+* /products
+* /customers
+* /employeees
+* /orders
+
+
 **Amazon Admin**
 
 An admin dashboard, clone, an ecommerce admin project Admin dashboard that sees it possible foran admin to create products, view, edit and delete any. He/she can also view the orders, completed, active, pending or rejected. Also, a track of all the customers is kept.
