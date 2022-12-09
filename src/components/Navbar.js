@@ -40,6 +40,12 @@ const Navbar = ({user, onLogout}) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  function handleLogout() {
+    fetch("https://ecommerce-production-921a.up.railway.app/logout", {
+      method: "DELETE",
+    }).then(() => onLogout());
+  }
+
   useEffect(() => {
     if (screenSize <= 900) {
       setActiveMenu(false);
@@ -64,7 +70,7 @@ const Navbar = ({user, onLogout}) => {
              <p>
              <span className="text-gray-400 text-14">Hello, </span>{' '}
              <span className="text-gray-400 font-bold ml-1 text-14">
-               Denzel
+               {user.username}
              </span>
            </p>
            ) : (<Link to="/login">Click Here to Login</Link>)}
@@ -72,7 +78,7 @@ const Navbar = ({user, onLogout}) => {
           </div>
 
         {isClicked.cart && (<Cart />)}
-        {isClicked.userProfile && (<UserProfile />)}
+        {/* {isClicked.userProfile && (<UserProfile />)} */}
       </div>
     </div>
   );

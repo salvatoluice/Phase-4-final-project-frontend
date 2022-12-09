@@ -42,7 +42,7 @@ const Ecommerce = () => {
       <Header productCount={products.length} />
       <main>
         <NewProductForm onAddProduct={handleAddProduct}/>
-        <section className="spice-list">
+        <section className="product-list">
           {products.map((product) => (
             <ProductItem
               key={product.id}
