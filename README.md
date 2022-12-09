@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# Lux-Hotels
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project name: **Lux-Hotels.**
 
-## Available Scripts
+Author's name: **Andreen Muchiri**
 
-In the project directory, you can run:
+**Lux-Hotels**
 
-### `npm start`
+This is an online hotel-hunting site that allows clients  who are looking forward to going for a vacation or even need accommodation during business trips, get access to information about hotels near their locations and those that fit their needs.It frees one off the stress that comes along with searching for hotel accommodation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Table of Contents.**
+* About The Project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Built With.
 
-### `npm test`
+* Getting Started.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Prerequisites.
 
-### `npm run build`
+* Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Roadmap.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Contributions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* License
 
-### `npm run eject`
+* ...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**ABOUT THE PROJECT.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Lux-Hotels  is an internet based hotel accommodation search site  that aims to ensure that hotel-hunting experience has been made easier by providing an extensive range of information on hotels available for accommodation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**BUILT WITH.**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* CSS
 
-## Learn More
+* React.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* JSX
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Netlify
 
-### Code Splitting
+* Railway.App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Ruby on Rails API
 
-### Analyzing the Bundle Size
+**GETTING STARTED.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To start of you are required to follow the live link provided in the repository description (Link provided),then go ahead and type in the search section.
 
-### Making a Progressive Web App
+**PREREQUISITES.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Below are the necesities to keep note of while using this web application.
 
-### Advanced Configuration
+         $ npm start 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Runs the app in the development mode.
+Open http://localhost:4000 to view it in your browser.
 
-### Deployment
+The page will reload when you make changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+       
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ * Clone the repo;
+  https://github.com/salvatoluice/Phase-4-final-project-frontend.git
+
+  To get setup run;
+
+     
+       $ npm install 
+        
+    
+    
+   
+**USAGE.**
+* First click on the web link provided,
+
+* Navigate to the search-box and select a location , hotel, room type  and price range in respective searchbox.
+
+* Click on the search button to get the results of your search.
+
+* Navigate to room page and get to book a room of your liking.
+
+* Login using the login button.
+
+* For new users, sign up using the signup button.
+
+
+
+
+
+**ROADMAP.**
+
+* Home .
+
+* About Us.
+
+* Room.
+
+* Contact .
+
+* Login.
+
+* SignUp.
+    
+        **CONTRIBUTIONS.**
+
+Feel free to make any contributions to this project.Your contributions will be recieved with much appreciation. For any suggestions that would improve this project,kindly fork the repo and create a pull request.
+
+* Fork the Project.
+
+* Create your Feature Branch (git checkout -b feature/feature).
+
+* Commit your Changes (git commit -m 'Add some feature').
+
+* Push to the Branch (git push origin feature/feature).
+
+* Open a Pull Request.
+
+**LICENSE.**
+
+Distributed under the MIT License.See LICENSE.txt for more information.
+
+
+**CONTACT ME.**
+
+Name- Salvato Luis -salvatoluice5@gmail.com
+
+Project-link: https://github.com/salvatoluice/Phase-4-final-project-frontend.git
+
+
+
+
+**ACKNOWLEDGEMENT.**
+
+To start of is lots of gratitude to my Moringa School Technical Mentor- **Beatrice Wambui.** -who has been very supportive through this whole process.She has guided me through everything diligently and ensured that I get to deliver my very best.
+
+
+
+
